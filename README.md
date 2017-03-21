@@ -40,4 +40,8 @@ class TilesComponent extends Component {
 | widthTileSpacing | number | Horizontal spacing between tiles in pixels. |
 | heightTileNumber | number | Number of rows of tiles. |
 | heightTileSpacing | number | Vertical spacing between tiles in pixels. |
-| tileColor | color code | Optional. But has to be different from backgroundColor or it will change. |
+| tileColor | color code | Optional. But has to be different from backgroundColor or the tiles will not be visible. |
+
+Left to do: 
+- Generalize code to include parts about padding
+- Test with actual react native app
