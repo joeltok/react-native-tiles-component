@@ -1,9 +1,9 @@
 # React Native Tiles Component
 A simple design component made up of equally sized and spaced tiles.
 
-How to use:
+How to use it:
 
-`
+```js
 import React, {Component} from 'react';
 import TilesComponent from 'react-native-tiles-component';
 	
@@ -28,7 +28,7 @@ class TilesComponent extends Component {
 
 }
 
-`
+```
 
 ## TilesComponent props
 | Prop | Type | Description |
