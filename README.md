@@ -12,17 +12,15 @@ class TilesComponent extends Component {
 	render() {
 	 	<TilesComponent
 	 		style={{
-	 			width: moveOuterSize, 
-	 			height: moveOuterSize, 
-	 			padding: 10, 
-	 			paddingTop: 0, 
-	 			paddingLeft: 0
+	 			width: 200, 
+	 			height: 200, 
+	 			padding: 10
 	 		}}
 	 		widthTileNumber={5}
 	 		widthTileSpacing={4}
 	 		heightTileNumber={5}
 	 		heightTileSpacing={4}
-	 		tileColor={defaultStyles.colors.contentBackground}
+	 		tileColor={'#A8A8A8'}
 	 	/>
 	}
 
