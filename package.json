@@ -1,11 +1,8 @@
 {
   "name": "react-native-tiles-component",
   "version": "1.0.0",
-  "description": "A simple component made up of equally spaced and customizable tiles.",
+  "description": "A simple design component made up of equally spaced and customizable tiles.",
   "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
   "author": "joeltok",
   "license": "MIT"
 }
