@@ -11,10 +11,10 @@ class TilesComponent extends Component {
 
 
 	render() {
-		// styles: padding, width, height
+		// styles: padding, width, height, backgroundColor
 		// widthTileNumber, widthTileSpacing
 		// heightTileNumber, heightTileSpacing
-		// backgroundColor, tileColor
+		// tileColor
 
 		var contentHeight = this.props.style.height - this.props.style.padding;
 		var tileHeight = ((contentHeight+this.props.heightTileSpacing) / this.props.heightTileNumber) - this.props.heightTileSpacing;
@@ -76,7 +76,8 @@ class TilesComponent extends Component {
 					padding: this.props.style.padding,
 					paddingTop: this.props.style.paddingTop,
 					paddingLeft: this.props.style.paddingLeft,
-					flexDirection: 'column'
+					flexDirection: 'column',
+					backgroundColor: this.props.style.backgroundColor,
 				}}
 			>
 				{content}
@@ -89,4 +90,9 @@ class TilesComponent extends Component {
 	}
 }
 
+exports.printMsg = function() {
+  console.log("This is a message from the demo package");
+}
+
 export default TilesComponent;
+
