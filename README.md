@@ -35,6 +35,8 @@ class TilesComponent extends Component {
 | style.height | number | Height of Component.  |
 | style.padding | number | Optional. Defaults to null. |
 | style.padding[Top, Left, Bottom, Right] | number | Optional. |
+| style.margin | number | Optional. Defaults to null. |
+| style.margin[Top, Left, Bottom, Right] | number | Optional. |
 | style.backgroundColor | color code | Optional. Defaults to null. |
 | widthTileNumber | number | Number of columns of tiles. |
 | widthTileSpacing | number | Horizontal spacing between tiles in pixels. |
