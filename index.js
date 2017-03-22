@@ -16,10 +16,21 @@ class TilesComponent extends Component {
 		// heightTileNumber, heightTileSpacing
 		// tileColor
 
-		var contentHeight = this.props.style.height - this.props.style.padding;
+		var paddingTop = this.props.style.paddingTop || this.props.style.padding;
+		var paddingLeft = this.props.style.paddingLeft || this.props.style.padding;
+		var paddingBottom = this.props.style.paddingBottom || this.props.style.padding;
+		var paddingLeft = this.props.style.paddingRight || this.props.style.padding;
+
+		var marginTop = this.props.style.marginTop || this.props.style.margin;
+		var marginLeft = this.props.style.marginLeft || this.props.style.margin;
+		var marginBottom = this.props.style.marginBottom || this.props.style.margin;
+		var marginLeft = this.props.style.marginRight || this.props.style.margin;
+
+
+		var contentHeight = this.props.style.height - this.props.style.paddingTop - this.props.style.paddingBottom;
 		var tileHeight = ((contentHeight+this.props.heightTileSpacing) / this.props.heightTileNumber) - this.props.heightTileSpacing;
 
-		var contentWidth = this.props.style.width - this.props.style.padding;
+		var contentWidth = this.props.style.width - this.props.style.paddingLeft - this.props.style.paddingRight;
 		var tileWidth = ((contentWidth+this.props.widthTileSpacing) / this.props.widthTileNumber) - this.props.widthTileSpacing;
 
 		var tileRow = [];
@@ -73,9 +84,14 @@ class TilesComponent extends Component {
 				style={{
 					width: this.props.style.width,
 					height: this.props.style.height,
-					padding: this.props.style.padding,
 					paddingTop: this.props.style.paddingTop,
 					paddingLeft: this.props.style.paddingLeft,
+					paddingBottom: this.props.style.paddingBottom,
+					paddingRight: this.props.style.paddingRight,
+					marginTop: this.props.style.marginTop,
+					marginLeft: this.props.style.marginLeft,
+					marginBottom: this.props.style.marginBottom,
+					marginRight: this.props.style.marginRight,
 					flexDirection: 'column',
 					backgroundColor: this.props.style.backgroundColor,
 				}}
