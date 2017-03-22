@@ -45,5 +45,4 @@ class TilesComponent extends Component {
 | tileColor | color code | Optional. But has to be different from backgroundColor or the tiles will not be visible. |
 
 Left to do: 
-- Generalize code to include parts about padding
 - Test with actual react native app
