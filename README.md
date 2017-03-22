@@ -1,4 +1,4 @@
-# React Native Tiles Component
+# React Native Tiles Component (Work-In-Progress, not usable yet)
 A simple design component made up of equally sized and spaced tiles.
 
 How to use it:
